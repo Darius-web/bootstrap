@@ -33,13 +33,13 @@ const bsPlugins = {
   Carousel: path.resolve(__dirname, '../js/src/carousel.js'),
   Collapse: path.resolve(__dirname, '../js/src/collapse.js'),
   Dropdown: path.resolve(__dirname, '../js/src/dropdown.js'),
+  FileInput: path.resolve(__dirname, '../js/src/file-input.js'),
   Modal: path.resolve(__dirname, '../js/src/modal.js'),
   Popover: path.resolve(__dirname, '../js/src/popover.js'),
   ScrollSpy: path.resolve(__dirname, '../js/src/scrollspy.js'),
   Tab: path.resolve(__dirname, '../js/src/tab.js'),
   Toast: path.resolve(__dirname, '../js/src/toast.js'),
-  Tooltip: path.resolve(__dirname, '../js/src/tooltip.js'),
-  FileInput: path.resolve(__dirname, '../js/src/file-input.js')
+  Tooltip: path.resolve(__dirname, '../js/src/tooltip.js')
 }
 const rootPath = path.resolve(__dirname, '../js/dist/')
 
