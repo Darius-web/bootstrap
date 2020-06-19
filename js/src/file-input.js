@@ -31,7 +31,7 @@ const EVENT_CLICK_DATA_API = `click${EVENT_KEY}${DATA_API_KEY}`
 const EVENT_CHANGE_DATA_API = `change${EVENT_KEY}${DATA_API_KEY}`
 const EVENT_RESET_DATA_API = `reset${EVENT_KEY}${DATA_API_KEY}`
 
-// @todo: remove when opera mini is gone
+// TODO: remove when we drop Opera Mini support
 const HAS_FILE_API = Boolean(window.File)
 const FAKE_PATH = 'fakepath'
 const FAKE_PATH_SEPARATOR = '\\'
